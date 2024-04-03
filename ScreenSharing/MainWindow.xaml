@@ -1,0 +1,14 @@
+﻿<Window x:Class="ScreenSharing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScreenSharing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF2B2B2B">
+    
+        <Image Name="userScreen" Width="550" Margin="125,32,125,43"/>
+
+    </Grid>
+</Window>
